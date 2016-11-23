@@ -1,3 +1,3 @@
-# Projects
-Code for the Current Project
+# LCSAP
+Learning Commons Student Assistance Program
 Current Project: LCSAP
