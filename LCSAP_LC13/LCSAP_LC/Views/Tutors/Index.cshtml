@@ -1,0 +1,66 @@
+﻿@model PagedList.IPagedList<LCSAP_LC.Models.Tutor>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index", "Tutors", FormMethod.Get))
+{
+    <p>
+        Find Tutor: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            Type
+        </th>
+        <th>
+            First Name
+        </th>
+        <th>
+            Last Name
+        </th>
+        <th>
+            Pay Rate
+        </th>
+        <th>
+            Is Active?
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TutorType.TutorType_description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tutor_Fname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tutor_Lname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tutor_PayRate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tutor_Active)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Tutor_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Tutor_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Tutor_Id })
+        </td>
+    </tr>
+}
+
+</table>

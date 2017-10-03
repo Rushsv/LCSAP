@@ -1,0 +1,40 @@
+﻿@model IEnumerable<LCSAP_LC.Models.CRNSection>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Course.Course_Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Term.Term_Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CRN_Id)
+            @Html.DisplayFor(modelItem => item.Course.Course_Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Term.Term_Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CRN_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CRN_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CRN_Id })
+        </td>
+    </tr>
+}
+
+</table>

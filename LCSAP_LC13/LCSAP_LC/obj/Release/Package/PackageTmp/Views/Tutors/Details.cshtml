@@ -1,0 +1,58 @@
+﻿@model LCSAP_LC.Models.Tutor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tutor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TutorType.TutorType_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TutorType.TutorType_description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tutor_Fname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tutor_Fname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tutor_Lname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tutor_Lname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tutor_PayRate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tutor_PayRate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tutor_Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tutor_Active)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Tutor_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

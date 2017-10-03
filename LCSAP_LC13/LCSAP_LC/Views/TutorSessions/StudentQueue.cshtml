@@ -1,0 +1,121 @@
+﻿@model IEnumerable<LCSAP_LC.Models.StudentSession>
+
+@{
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+    ViewBag.Title = "Student Queue";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="refresh" content="15" />
+    
+  
+</head>
+<body>
+    <div class="container">
+        <div class="navbar navbar-fixed-top navbar-default">
+            <div class="navbar-header">
+                <div class="navbar navbar-brand">
+                    <img src="~/Content/AimsLogo.png" class="img-responsive" />
+                </div>
+            </div>
+
+            <div>
+                <ul class="nav navbar-right nav-pills" style="padding-right: 15px">
+                    <li>
+                        @using (Html.BeginForm("StudentQueue", "TutorSessions", FormMethod.Get))
+                        {
+                            <p>
+                                Area: @Html.DropDownList("filterArea", "All")
+                                <input type="hidden" name="tutorsession_id" value=@ViewBag.tutorsession_id />
+                                <input class="btn btn-info" type="submit" value="Filter" />
+                            </p>
+
+                        }
+                    </li>
+                    <li>
+                        <a href="@Url.Action("GroupQueueInitial","TutorSessions",new {tutorSession_id = ViewBag.TutorSession_Id, filterArea = ViewBag.AreaFilter})" ><span class="glyphicon glyphicon-education"></span>Multi-Session View</a>
+                    </li>
+
+                    <li>
+                        <a href="@Url.Action("SelectArea", "StudentSessions", new {campus_id=ViewBag.campus_Id })" target="_blank"><span class="glyphicon glyphicon-plus"></span>Add Student</a>
+                    </li>
+                    <li>
+                        <a href="#">Messages <span class="badge">@ViewBag.UnreadMessages</span></a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("TutorLogout","TutorSessions",new {tutorSession_id = ViewBag.TutorSession_Id})"><span class="glyphicon glyphicon-log-out"></span>Log Out</a>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+  <br /><br />
+    <div class="container">
+        <div class="row queue">
+
+            @foreach (var item in Model)
+            {
+
+                <div class="col-md-6">
+                    <div class="well">
+                        <h4>@Html.DisplayFor(modelItem => item.Student.Student_FirstName) @Html.DisplayFor(modelItem => item.Student.Student_LastName)</h4>
+                        
+                        <p>
+                            Area: <a href="@Url.Action("SwitchArea","StudentSessions",new { tutorSession_id = ViewBag.TutorSession_Id, studentSession_id = item.StudentSession_Id })" id="AreaSwitch" data-toggle="tooltip" title="Switch Area">@item.Area.Area_Name<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                            <!-- Area: @Html.DisplayFor(modelItem => item.Area.Area_Name) -->
+                        </p>
+                        <p>Campus: @Html.DisplayFor(modelItem => item.Campus.Campus_Name)</p>
+                        <p>
+                            Course:@Html.DisplayFor(modelItem => item.CRNSection.Course_Id)-@Html.DisplayFor(modelItem => item.CRNSection.CRN_Id): @Html.DisplayFor(modelItem => item.CRNSection.Course.Course_Title)
+                        </p>
+                        <p>Check in: <span id="checkingDate" >@item.Checkin_Time</span></p>
+                        <p><b>@MyTotalSeconds(@item.Checkin_Time)</b></p>
+                        
+
+                        <div class="btn-group" role="group" aria-label="...">
+                            <a id="queuebutton" class="btn btn-primary btn-default" href="@Url.Action("CreateTimes", new { studentSession_id = item.StudentSession_Id, tutorSession_id = ViewBag.TutorSession_Id })">Start Tutoring <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span></a>
+                            <a id="queuebutton" class="btn btn-info btn-default " href="@Url.Action("CheckInQueue", new { studentSession_id = item.StudentSession_Id, tutorSession_id = ViewBag.TutorSession_Id })">Check Student <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
+                            <a id="queuebutton" class="btn btn-warning btn-default" href="@Url.Action("RemoveFromQueue", new { studentSession_id = item.StudentSession_Id, tutorSession_id = ViewBag.TutorSession_Id })">Remove from Queue <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+                </div>
+                
+            }
+        </div>
+    </div>
+    
+    @helper MyTotalSeconds(DateTime inDate)
+    {
+        TimeSpan interval = DateTime.Now - inDate;
+        var tSeconds = (int)interval.Seconds;
+        var tHours = interval.Hours;
+        var tMinutes = interval.Minutes;
+        var color = "alert-info";
+        if (tHours > 1)
+        {
+            color = "alert-danger";
+        }
+        else
+            if (tMinutes > 15)
+            {
+                color = "alert-warning";
+            }
+        <span class="@color">Aprox. Time in Queue: @tHours hrs : @tMinutes mins : @tSeconds secs </span>
+    }
+
+    <script>
+        $(document).ready(function () {
+            $('#AreaSwitch').tooltip();
+        });
+    </script>
+</body>
+</html>

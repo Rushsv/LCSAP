@@ -1,0 +1,34 @@
+﻿@model LCSAP_LC.Models.Course
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Course: @Model.Course_Id</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.Subject_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.Subject_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course_Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course_Title)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Course_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

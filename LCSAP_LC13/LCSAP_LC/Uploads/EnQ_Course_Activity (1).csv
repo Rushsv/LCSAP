@@ -1,0 +1,409 @@
+"Subject","Course_Number","CRN","Course_Title","InstructorFirstName","InstructorLastName","InstructorEmail"
+AAA,090,10236,"Academic Achievemnt Strategies",Michael,Register,michael.register@aims.edu
+AAA,090,10237,"Academic Achievemnt Strategies",Holly,Hartwick,holly.hartwick@aims.edu
+AAA,090,10239,"Academic Achievemnt Strategies",Holly,Hartwick,holly.hartwick@aims.edu
+AAA,090,10350,"Academic Achievemnt Strategies",Elizabeth,Osborn,eosborn1@aims.edu
+AAA,090,10369,"Academic Achievemnt Strategies",Julie,Luekenga,julie.luekenga@aims.edu
+ACC,121,10065,"Accounting Principles I",Gina,Jones,gjones@aims.edu
+ACC,122,10071,"Accounting Principles II",Gina,Jones,gjones@aims.edu
+AIMS,091,10422,"Workshop - Cultural Immersion",Julie,Smith,julie.smith@aims.edu
+AIMS,091,10553,"Workshop - Cultural Immersion",Nhi,Dang,nhi.dang@aims.edu
+AIMS,1001,10484,"Orientation to Aims Online",,,
+AIMS,1001,10485,"Orientation to Aims Online",,,
+AIMS,1001,10486,"Orientation to Aims Online",,,
+AIMS,1001,10487,"Orientation to Aims Online",,,
+AIMS,1089,10488,Time-Management,,,
+AIMS,1090,10489,"Study Tip & Note Taking Strtgs",,,
+AIMS,1091,10490,"How to Reduce Text Anxiety",,,
+AIMS,1092,10491,"Discover Your Learning Style",,,
+AIMS,1103,10492,"Success Tips - Online Course",,,
+AIMS,1104,10493,"Exam Prep & Test Strategies",,,
+AIMS,1105,10494,"Financial Literacy",,,
+AIMS,1106,10495,"Learning Student Strategies",,,
+AIMS,1107,10496,"Stay Motivated - Online Course",,,
+AIMS,1108,10497,"Online Tests Success Strtgies",,,
+AIMS,1109,10498,"Overcoming Procrastination",,,
+AIMS,1110,10499,"Stress Mgmt Techniques",,,
+AIMS,1111,10500,"Get to Know Your Instructors",,,
+AIMS,1123,10501,"Exploring Careers & Majors",,,
+AIMS,1124,10502,"Mastering the Job Interview",,,
+AIMS,1125,10503,"Maximizing College Experience",,,
+AIMS,1126,10504,"Successful College Student",,,
+AIMS,1127,10505,"Write Resumes & Cover Letters",,,
+AIMS,1128,10506,"Understanding Plagiarism",,,
+AIMS,1129,10507,"Online:Reading & Writing Strgs",,,
+AIMS,1130,10508,"Developing a Thesis Statement",,,
+AIMS,1131,10509,"Draft:Intro, Body, Conclusions",,,
+AIMS,1132,10510,"Pre-Writing Techniques",,,
+AIMS,1133,10511,"Reading Comprehension Strtgs",,,
+AIMS,1134,10512,"Proofread & Edit Your Writing",,,
+AIMS,1135,10513,"Navigating Financial Aid",,,
+AIMS,1144,10514,"Well-Being, Balance, & Success",,,
+AIMS,1145,10515,"How to Overcome Math Anxiety",,,
+AIMS,1146,10516,"Create College Bucket List",,,
+AIMS,1147,10517,"Succeed in Your Math Class",,,
+AIMS,1148,10518,"Setting Realistic Goals",,,
+AIMS,1149,10519,"Develop Cross-Cultural Skills",,,
+AIMS,1167,10520,"Success for First Generation",,,
+AIMS,1168,10521,"Mental Health 101: Resources",,,
+AIMS,1169,10522,"Emotional Intelligence",,,
+AIMS,1170,10523,"The Do's and Don'ts",,,
+AIMS,1171,10524,"Master College Research",,,
+AIMS,1172,10525,"10 Habits of Mind for Success",,,
+AIMS,1173,10526,"Difference - HS & College",,,
+AIMS,250,10527,"Alt Text",Dana,Jones,djones10@aims.edu
+ANT,101,10003,"Cultural Anthropology [SS3]",Eden,Welker,eden.welker@aims.edu
+ANT,107,10004,"Intro to Archaeology [SS3]",Roger,DeWitt,roger.dewitt@aims.edu
+ART,110,10316,"Art Appreciation [AH1]",Anthony,Guntren,anthony.guntren@aims.edu
+ART,110,10318,"Art Appreciation [AH1]",Anthony,Guntren,anthony.guntren@aims.edu
+ART,110,10319,"Art Appreciation [AH1]",Sonya,PauKune,spaukune@aims.edu
+ART,121,10322,"Drawing I",Victoria,Lisi,vlisi@aims.edu
+ART,139,10141,"Digital Photography I",G,Lewis,gmark.lewis@aims.edu
+ART,139,10145,"Digital Photography I",G,Lewis,gmark.lewis@aims.edu
+ART,139,10147,"Digital Photography I",G,Lewis,gmark.lewis@aims.edu
+ART,207,10335,"Art History 1900-Present [AH1]",Meg,Coulter,mcoulte2@aims.edu
+ART,221,10337,"Drawing II",Victoria,Lisi,vlisi@aims.edu
+ART,222,10338,"Drawing III",Victoria,Lisi,vlisi@aims.edu
+ART,223,10351,"Drawing IV",Victoria,Lisi,vlisi@aims.edu
+ASE,101,10215,"Auto Shop Orientation",Dan,Sisson,dsisson@aims.edu
+ASE,110,10219,"Brakes I",Dan,Sisson,dsisson@aims.edu
+ASE,111,10221,"Auto Brake II",Dan,Sisson,dsisson@aims.edu
+ASE,120,10217,"Basic Auto Electricity",Dan,Sisson,dsisson@aims.edu
+ASE,122,10218,"Auto Elec Safety Systems",Dan,Sisson,dsisson@aims.edu
+ASE,123,10220,"Starting and Charging System",Dan,Sisson,dsisson@aims.edu
+ASE,130,10222,"General Engine Diagnosis",Larry,Baker,lbaker3@aims.edu
+ASE,134,10223,"Automotive Emissions",Larry,Baker,lbaker3@aims.edu
+ASE,140,10226,"Suspension and Steering I",Larry,Baker,lbaker3@aims.edu
+ASE,141,10248,"Suspension and Steering II",Larry,Baker,lbaker3@aims.edu
+ASE,150,10227,"Manual Drive Train and Axle",Larry,Baker,lbaker3@aims.edu
+ASE,151,10254,"Man Trans/Transaxles&Clutches",Larry,Baker,lbaker3@aims.edu
+ASE,152,10255,"Man Trans/Transaxles/Clutch II",Larry,Baker,lbaker3@aims.edu
+ASE,153,10272,"Automotive Drive Axle Overhaul",Larry,Baker,lbaker3@aims.edu
+ASE,154,10274,"Manual Trans/Axle Diags & Rpr",Larry,Baker,lbaker3@aims.edu
+ASE,160,10275,"Automotive Engine Repair",Larry,Baker,lbaker3@aims.edu
+ASE,161,10281,"Engine Repair and Rebuild",Larry,Baker,lbaker3@aims.edu
+ASE,162,10224,"Automotive Engine Repair",Larry,Baker,lbaker3@aims.edu
+ASE,170,10216,"Laboratory Experience I",Dan,Sisson,dsisson@aims.edu
+ASE,171,10282,"Laboratory Experience II",Larry,Baker,lbaker3@aims.edu
+ASE,210,10252,"Auto Pwr/ABS Brake Systems",Larry,Baker,lbaker3@aims.edu
+ASE,221,10229,"Auto/Diesel Body Electrical",Dan,Sisson,dsisson@aims.edu
+ASE,231,10243,"Auto Computers & Ignition Sys",Dan,Sisson,dsisson@aims.edu
+ASE,233,10244,"Fuel Injection and Exhaust",Dan,Sisson,dsisson@aims.edu
+ASE,235,10247,"Drivability and Diagnosis",Dan,Sisson,dsisson@aims.edu
+ASE,240,10250,"Suspension and Steering III",Larry,Baker,lbaker3@aims.edu
+ASE,250,10228,"Auto Trans/Transaxle Service",Larry,Baker,lbaker3@aims.edu
+ASE,251,10278,"Auto Trans/Transaxle Repair",Larry,Baker,lbaker3@aims.edu
+ASE,252,10279,"Adv Automatic Transm/Transa",Larry,Baker,lbaker3@aims.edu
+ASE,264,10225,"Intro to HVAC Systems",Larry,Baker,lbaker3@aims.edu
+ASE,265,10251,"HVAC Systems",Larry,Baker,lbaker3@aims.edu
+ASE,275,10545,"Special Topics",Larry,Baker,lbaker3@aims.edu
+ASE,275,10567,"Special Topics",Larry,Baker,lbaker3@aims.edu
+ASL,101,10403,"Basic Sign Language I",Susan,Marcus,susan.marcus@aims.edu
+AST,101,10186,"Astronomy I w/Lab [SC1]",Eligar,Sadeh,eligar.sadeh@aims.edu
+AST,101,10188,"Astronomy I w/Lab [SC1]",Kendall,Mallory,kmallory@aims.edu
+AST,102,10190,"Astronomy II w/Lab [SC1]",Kendall,Mallory,kmallory@aims.edu
+AVT,107,10344,"Aviation Discovery",Patti,Phillips,pphilli2@aims.edu
+AVT,111,10352,"Instrument Pilot Ground School",William,Standerfer,wstander@aims.edu
+AVT,112,10368,"Instrument Pilot Flight",Alexander,Wernsman,awernsma@aims.edu
+AVT,112,10370,"Instrument Pilot Flight",Donald,Griffith,donald.griffith@aims.edu
+AVT,112,10371,"Instrument Pilot Flight",Donald,Griffith,donald.griffith@aims.edu
+AVT,113,10372,"Instrument Flight Trainer",William,Standerfer,wstander@aims.edu
+AVT,202,10373,"Commercial Flight I",Alexander,Wernsman,awernsma@aims.edu
+AVT,203,10374,"Commercial Flight II",Alexander,Wernsman,awernsma@aims.edu
+AVT,204,10375,"Commercial Flight I/Helicopter",Donald,Griffith,donald.griffith@aims.edu
+AVT,208,10376,"Multi-Engine Flight",Alexander,Wernsman,awernsma@aims.edu
+AVT,208,10562,"Multi-Engine Flight",Alexander,Wernsman,awernsma@aims.edu
+AVT,210,10566,"Multi-Eng Cross-Country Flight",Alexander,Wernsman,awernsma@aims.edu
+AVT,213,10541,"Flight Instructor Flight",Alexander,Wernsman,awernsma@aims.edu
+AVT,214,10377,"Commercial Flght II/Helicopter",Donald,Griffith,donald.griffith@aims.edu
+AVT,214,10378,"Commercial Flght II/Helicopter",Donald,Griffith,donald.griffith@aims.edu
+AVT,214,10379,"Commercial Flght II/Helicopter",Donald,Griffith,donald.griffith@aims.edu
+AVT,215,10380,"Flt Instructor Flt/Helicopter",Donald,Griffith,donald.griffith@aims.edu
+AVT,217,10381,"SFAR 73 Flt Instr, Flt Hlcptr",Donald,Griffith,donald.griffith@aims.edu
+AVT,222,10382,"Instrument Instructor Flight",Donald,Griffith,donald.griffith@aims.edu
+BIO,105,10234,"Science of Biology w/Lab [SC1]",Raymond,Romero,rromer14@aims.edu
+BIO,105,10245,"Science of Biology w/Lab [SC1]",Sharlene,Haeger,sharlene.haeger@aims.edu
+BIO,105,10246,"Science of Biology w/Lab [SC1]",Lynne,Fox-Parrish,lynne.foxparrish@aims.edu
+BIO,105,10249,"Science of Biology w/Lab [SC1]",Lynne,Fox-Parrish,lynne.foxparrish@aims.edu
+BIO,106,10289,"Basic Anatomy and Physiology",Raymond,Romero,rromer14@aims.edu
+BIO,111,10238,"Gen College Biol I w/Lab [SC1]",Shana,Netherton,shana.netherton@aims.edu
+BIO,111,10284,"Gen College Biol I w/Lab [SC1]",Sharlene,Haeger,sharlene.haeger@aims.edu
+BIO,201,10240,"Human Anatomy/Phys I w/Lab:SC1",Peter,Graham,pgraham1@aims.edu
+BIO,202,10242,"Human Anatomy/Phys II/Lab: SC1",Ryan,Mayeda,ryan.mayeda@aims.edu
+BTE,102,10001,"Keyboarding Applications I",Susan,Ehrfurth,sue.ehrfurth@aims.edu
+BTE,108,10030,"Ten-Key by Touch",Lori,Hatchell,lori.hatchell@aims.edu
+BTE,111,10032,"Keyboarding Speedbuilding I",Susan,Ehrfurth,sue.ehrfurth@aims.edu
+BTE,255,10039,"Word Processing Techniques II",Judy,Stencel,judy.stencel@aims.edu
+BUS,115,10040,"Introduction to Business",Joanne,"San Nicolas",jsannico@aims.edu
+BUS,115,10041,"Introduction to Business",Susan,Ehrfurth,sue.ehrfurth@aims.edu
+BUS,216,10046,"Legal Environment of Business",Joanne,"San Nicolas",jsannico@aims.edu
+BUS,216,10047,"Legal Environment of Business",Joanne,"San Nicolas",jsannico@aims.edu
+BUS,217,10059,"Bus Comm and Report Writing",Susan,Ehrfurth,sue.ehrfurth@aims.edu
+BUS,226,10138,"Business Statistics",Samantha,Estrada-Aguilera,samantha.estrada@aims.edu
+BUS,226,10551,"Business Statistics",Samantha,Estrada-Aguilera,samantha.estrada@aims.edu
+BUS,281,10060,Internship,Gina,Jones,gjones@aims.edu
+CAD,280,10554,Internship,L.,Mangin,john.mangin@aims.edu
+CCR,092,10088,"Composition and Reading",Ruth,Macfarlane,ruth.macfarlane@aims.edu
+CCR,094,10092,"Studio 121",Brian,Seemann,brian.seemann@aims.edu
+CCR,094,10106,"Studio 121",Jared,Merk,jmerk@aims.edu
+CCR,094,10535,"Studio 121",Richard,Nunez,richard.nunez@aims.edu
+CCR,094,10538,"Studio 121",Courtney,Graeff,courtney.graeff@aims.edu
+CHE,101,10191,"Intro to Chemistry I w/Lab:SC1",Carolyn,Kline,ckline3@aims.edu
+CIO,076,10473,"Spcl Tpcs: Listen, Speak, 1",Fathia,Barkadle,fbarkad1@aims.edu
+CIO,076,10474,"Spcl Tpcs: Listen, Speak, 1",Wayne,Buller,wayne.buller@aims.edu
+CIO,076,10475,"Spcl Tpcs: Listen, Speak, 1",Nereida,"Perdigon Rodriguez",nereida.perdigon@aims.edu
+CIO,076,10476,"Spcl Tpcs: Listen, Speak, 1",Thomas,Lucero,tlucero6@aims.edu
+CIO,076,10477,"Spcl Tpcs: Listen, Speak, 1",Sean,Ryan,sryan3@aims.edu
+CIO,076,10564,"Spcl Tpcs: Listen, Speak, 1",Lucia,Gonzales,lucia.gonzales@aims.edu
+CIS,118,10081,"Intro PC Applications",Laurie,"MacDonald Steele",lmacdona@aims.edu
+CIS,118,10082,"Intro PC Applications",Kenneth,McDaniel,kmcdanie@aims.edu
+CIS,118,10083,"Intro PC Applications",David,Clark,dclark4@aims.edu
+CIS,118,10087,"Intro PC Applications",David,Clark,dclark4@aims.edu
+CIS,118,10091,"Intro PC Applications",Connie,Lance,clance@aims.edu
+CIS,155,10073,"PC Spreadsheet Concepts/Excel",Debra,Anderson,delynn.anderson@aims.edu
+CNG,120,10530,"A+ Certification Preparation",William,Devlin,william.devlin@aims.edu
+COM,115,10120,"Public Speaking",Julia,Weingardt,jweingar@aims.edu
+COM,115,10122,"Public Speaking",Julia,Weingardt,jweingar@aims.edu
+COM,115,10123,"Public Speaking",Julia,Weingardt,jweingar@aims.edu
+COM,115,10125,"Public Speaking",Toshia,Paul,toshia.paul@aims.edu
+COM,115,10133,"Public Speaking",Michael,Register,michael.register@aims.edu
+COM,115,10478,"Public Speaking",Corina,Pike,cpike@aims.edu
+COM,125,10126,"Interpersonal Communication",Julia,Weingardt,jweingar@aims.edu
+COM,125,10127,"Interpersonal Communication",Evan,Oakley,evan.oakley@aims.edu
+COM,125,10129,"Interpersonal Communication",Evan,Oakley,evan.oakley@aims.edu
+COM,125,10349,"Interpersonal Communication",Evan,Oakley,evan.oakley@aims.edu
+CSC,119,10140,"Introduction to Programming",Kenneth,McDaniel,kmcdanie@aims.edu
+DAN,131,10042,"Ballet I",Wendy,Klein,wendy.klein@aims.edu
+ECE,103,10364,"Guidance Strategies/Children",Katherine,Hamblin,kathy.hamblin@aims.edu
+ECE,111,10365,"Infant/Toddler Theory/Practice",Rebecca,Ward-Smith,bec.ward@aims.edu
+ECE,112,10528,"Intro Infant/Toddler Lab Techq",Julianne,Skinner,julianne.skinner@aims.edu
+ECO,201,10007,"Prin of Macroeconomics [SS1]",Kawa,Ng,kng@aims.edu
+ECO,202,10006,"Prin of Microeconomics [SS1]",Lucy,Mwangi,lucy.mwangi@aims.edu
+EDU,221,10481,"Introduction to Education",Janet,Stapleton,jan.stapleton@aims.edu
+EDU,263,10419,"Teaching and Learning Online",James,Hutchinson,jhutchi2@aims.edu
+EDU,275,10548,"Special Topics",Heidi,Blair,hblair@aims.edu
+EDU,275,10549,"Special Topics",Heidi,Blair,hblair@aims.edu
+ELT,258,10420,"Programmable Logic Controllers",Lee,McMains,nmcmains@aims.edu
+ELT,258,10565,"Programmable Logic Controllers",Lee,McMains,nmcmains@aims.edu
+EMS,121,10093,"EMT Fundamentals",Jamie,Jacobs,jjacobs9@aims.edu
+EMS,121,10094,"EMT Fundamentals",Kendra,Currey,kendra.currey@aims.edu
+EMS,122,10095,"EMT Medical Emergencies",Jamie,Jacobs,jjacobs9@aims.edu
+EMS,122,10096,"EMT Medical Emergencies",Kendra,Currey,kendra.currey@aims.edu
+EMS,123,10097,"EMT Trauma Emergencies",Jamie,Jacobs,jjacobs9@aims.edu
+EMS,123,10098,"EMT Trauma Emergencies",Kendra,Currey,kendra.currey@aims.edu
+EMS,124,10099,"EMT Special Considerations",Jamie,Jacobs,jjacobs9@aims.edu
+EMS,124,10100,"EMT Special Considerations",Kendra,Currey,kendra.currey@aims.edu
+EMS,127,10392,"AEMT Special Considerations",Robert,Willits,rwillits@aims.edu
+EMS,129,10393,"AEMT Pharmacology",Robert,Willits,rwillits@aims.edu
+EMS,130,10391,"EMT Intravenous Therapy",Robert,Willits,rwillits@aims.edu
+EMS,130,10533,"EMT Intravenous Therapy",Natalie,Ray,nray2@aims.edu
+EMS,131,10394,"AEMT Fundamentals",Robert,Willits,rwillits@aims.edu
+EMS,133,10395,"AEMT Medical Emergencies",Robert,Willits,rwillits@aims.edu
+EMS,135,10417,"AEMT Trauma Emergencies",Robert,Willits,rwillits@aims.edu
+EMS,170,10101,"EMT Basic Clinical",Robert,Willits,rwillits@aims.edu
+EMS,170,10103,"EMT Basic Clinical",Robert,Willits,rwillits@aims.edu
+EMS,171,10396,"AEMT Clinical Internship",Robert,Willits,rwillits@aims.edu
+EMS,280,10105,"Paramedic Internship I",David,Jacoby,djacoby@aims.edu
+EMS,281,10107,"Paramedic Internship II",David,Jacoby,djacoby@aims.edu
+ENG,121,10089,"English Composition I [CO1]",Brian,Seemann,brian.seemann@aims.edu
+ENG,121,10090,"English Composition I [CO1]",Brian,Seemann,brian.seemann@aims.edu
+ENG,121,10102,"English Composition I [CO1]",Jared,Merk,jmerk@aims.edu
+ENG,121,10104,"English Composition I [CO1]",Jared,Merk,jmerk@aims.edu
+ENG,121,10108,"English Composition I [CO1]",Karen,McCurley-Hardesty,kmccurle@aims.edu
+ENG,121,10109,"English Composition I [CO1]",Leslie,Morrison,leslie.morrison@aims.edu
+ENG,121,10110,"English Composition I [CO1]",Allison,Easley,allison.easley@aims.edu
+ENG,121,10111,"English Composition I [CO1]",Jennifer,Naimark,jnaimark@aims.edu
+ENG,121,10534,"English Composition I [CO1]",Richard,Nunez,richard.nunez@aims.edu
+ENG,121,10536,"English Composition I [CO1]",Richard,Nunez,richard.nunez@aims.edu
+ENG,121,10537,"English Composition I [CO1]",Courtney,Graeff,courtney.graeff@aims.edu
+ENG,121,10539,"English Composition I [CO1]",Courtney,Graeff,courtney.graeff@aims.edu
+ENG,122,10116,"English Composition II [CO2]",Karen,McCurley-Hardesty,kmccurle@aims.edu
+ENG,122,10117,"English Composition II [CO2]",Todd,Cronkhite,ty.cronkhite@aims.edu
+ENG,122,10118,"English Composition II [CO2]",Gloria,Koss,gloria.koss@aims.edu
+ENG,122,10119,"English Composition II [CO2]",Jennifer,Naimark,jnaimark@aims.edu
+ENG,122,10134,"English Composition II [CO2]",Micah,Ling,micah.ling@aims.edu
+ENG,122,10555,"English Composition II [CO2]",Jennifer,Naimark,jnaimark@aims.edu
+ENG,221,10135,"Creative Writing I",Micah,Ling,micah.ling@aims.edu
+ENG,222,10136,"Creative Writing II",Micah,Ling,micah.ling@aims.edu
+FRE,101,10406,"Conversational French I",David,Olson,dolson6@aims.edu
+FRE,102,10407,"Conversational French II",David,Olson,dolson6@aims.edu
+FRE,111,10408,"French Language I",David,Olson,dolson6@aims.edu
+FRE,112,10409,"French Language II",David,Olson,dolson6@aims.edu
+FRE,201,10410,"Conversational French III",David,Olson,dolson6@aims.edu
+FRE,202,10411,"Conversational French IV",David,Olson,dolson6@aims.edu
+FRE,211,10412,"French Language III [AH4]",David,Olson,dolson6@aims.edu
+FRE,212,10413,"French Language IV [AH4]",David,Olson,dolson6@aims.edu
+FRE,235,10414,"French Reading & Writing",David,Olson,dolson6@aims.edu
+FRE,275,10415,"Special Topics",David,Olson,dolson6@aims.edu
+FRE,275,10529,"Special Topics",,,
+FST,151,10425,Driver-Operator,Christopher,Linder,clinder@aims.edu
+FST,160,10398,"Physical Test Prep Course",Gregory,Becker,gregory.becker@aims.edu
+FST,203,10426,"Fire Hydraulics/Water Supply",Christopher,Linder,clinder@aims.edu
+FST,280,10397,Internship,Jerry,Fletcher,jfletch5@aims.edu
+FVM,169,10149,"The Cinematic Western",Kellie,Sapp,ksapp1@aims.edu
+GEO,105,10008,"World Regional Geography [SS2]",Michael,Kelsey,mike.kelsey@aims.edu
+GEO,105,10479,"World Regional Geography [SS2]",Scott,Miller,scott.miller@aims.edu
+GEY,111,10194,"Physical Geology w/Lab [SC1]",Debra,Krumm,debbie.krumm@aims.edu
+GEY,111,10199,"Physical Geology w/Lab [SC1]",Angela,Allison,angela.allison@aims.edu
+HIS,101,10009,"Westrn Civ:Antiquity-1650[HI1]",Jeffrey,Reynolds,jeff.reynolds@aims.edu
+HIS,101,10010,"Westrn Civ:Antiquity-1650[HI1]",Steven,Stager,steven.stager@aims.edu
+HIS,102,10011,"Western Civ:1650-Present [HI1]",Jeffrey,Reynolds,jeff.reynolds@aims.edu
+HIS,121,10012,"US History to Reconst. [HI1]",Clint,Heiner,clint.heiner@aims.edu
+HIS,121,10013,"US History to Reconst. [HI1]",Tom,Schemp,tschemp1@aims.edu
+HIS,122,10014,"US Hist. Since Civil War [HI1]",Merle,Funk,mfunk2@aims.edu
+HIS,225,10015,"Colorado History [HI1]",Melvin,Bacon,mbacon1@aims.edu
+HIS,225,10016,"Colorado History [HI1]",Merle,Funk,mfunk2@aims.edu
+HPR,108,10079,"Dietary Nutrition",Ryan,Mayeda,ryan.mayeda@aims.edu
+HPR,112,10209,Phlebotomy,Jennifer,Osborne,jmock@aims.edu
+HPR,137,10271,"Human Diseases",Brady,Gilson,brady.gilson@aims.edu
+HPR,178,10276,"Medical Terminology",Mindy,Geraets,mindy.geraets@aims.edu
+HPR,178,10277,"Medical Terminology",Tracy,Gary,tgary@aims.edu
+HPR,178,10280,"Medical Terminology",Stephany,Wood,swood10@aims.edu
+HPR,178,10531,"Medical Terminology",Mindy,Geraets,mindy.geraets@aims.edu
+HPR,180,10297,Internship,Jennifer,Osborne,jmock@aims.edu
+HUM,115,10253,"World Mythology [AH2]",Allison,Easley,allison.easley@aims.edu
+HUM,115,10256,"World Mythology [AH2]",Elizabeth,Lyons,elyons1@aims.edu
+HUM,121,10259,"Humanities: Early Civ [AH2]",Elizabeth,Lyons,elyons1@aims.edu
+HUM,122,10261,"Humanities:Mediev-Modern [AH2]",Elizabeth,Lyons,elyons1@aims.edu
+HWE,100,10061,"Human Nutrition",Mindy,Geraets,mindy.geraets@aims.edu
+HWE,100,10066,"Human Nutrition",Mindy,Geraets,mindy.geraets@aims.edu
+HWE,100,10070,"Human Nutrition",Tracy,Gary,tgary@aims.edu
+HWE,100,10258,"Human Nutrition",Tracy,Gary,tgary@aims.edu
+HWE,111,10416,"Health and Fitness",Tracy,Gary,tgary@aims.edu
+JOU,105,10150,"Intro to Mass Media [SS3]",James,Crandall,jim.crandall@aims.edu
+JOU,105,10151,"Intro to Mass Media [SS3]",James,Crandall,jim.crandall@aims.edu
+JOU,106,10152,"Media News and Reporting",James,Crandall,jim.crandall@aims.edu
+JOU,280,10155,Internship,James,Crandall,jim.crandall@aims.edu
+LIT,255,10480,"Children's Literature",Kendra,Griffin,kgriffi2@aims.edu
+MAN,230,10075,"Corporate Ethics & Social Resp",Linda,Zamora,lmatthew@aims.edu
+MAT,050,10051,"Quantitative Literacy",Ronnie,Lewis,ron.lewis@aims.edu
+MAT,050,10052,"Quantitative Literacy",Raymon,Brown,ray.brown@aims.edu
+MAT,050,10053,"Quantitative Literacy",Amanda,Zimmer,azimmer@aims.edu
+MAT,050,10543,"Quantitative Literacy",Amanda,Zimmer,azimmer@aims.edu
+MAT,055,10054,"Algebraic Literacy",Raymon,Brown,ray.brown@aims.edu
+MAT,055,10056,"Algebraic Literacy",Raymon,Brown,ray.brown@aims.edu
+MAT,107,10057,"Career Math",Terisha,Thomason,tthomaso@aims.edu
+MAT,107,10273,"Career Math",Ronnie,Lewis,ron.lewis@aims.edu
+MAT,121,10050,"College Algebra [MA1]",Eric,Hashberger,eric.hashberger@aims.edu
+MAT,121,10063,"College Algebra [MA1]",Wayne,Pietryka,wpietryk@aims.edu
+MAT,121,10064,"College Algebra [MA1]",Jeanine,Lewis,jeanine.lewis@aims.edu
+MAT,121,10074,"College Algebra [MA1]",Sarah,"Rozner Haley",sroznerh@aims.edu
+MAT,121,10540,"College Algebra [MA1]",Jeanine,Lewis,jeanine.lewis@aims.edu
+MAT,122,10067,"College Trigonometry [MA1]",Jeanine,Lewis,jeanine.lewis@aims.edu
+MAT,135,10137,"Intro to Statistics [MA1]",Samantha,Estrada-Aguilera,samantha.estrada@aims.edu
+MAT,135,10550,"Intro to Statistics [MA1]",Samantha,Estrada-Aguilera,samantha.estrada@aims.edu
+MAT,155,10069,"Integrated Math I",Janet,Stapleton,jan.stapleton@aims.edu
+MAT,201,10076,"Calculus I [MA1]",Karen,Robinson,krobinso@aims.edu
+MAT,203,10077,"Calculus III [MA1]",Karen,Robinson,krobinso@aims.edu
+MGD,164,10154,"Digital Video Editing I",George,Sickler,gsickler@aims.edu
+MGD,280,10143,Internship,Brian,Dunning,brian.dunning@aims.edu
+MOT,280,10383,Internship,Cynthia,Walker,cindy.walker@aims.edu
+MUS,120,10270,"Music Appreciation [AH1]",Richard,Busson,rick.busson@aims.edu
+MUS,141,10296,"Private Instruction: (Specify)",Darlene,Mueller,dmueller@aims.edu
+MUS,142,10298,"Private Instruction: (Specify)",Darlene,Mueller,dmueller@aims.edu
+MUS,143,10299,"Private Instruction: (Specify)",Darlene,Mueller,dmueller@aims.edu
+MUS,144,10300,"Private Instruction: (Specify)",Darlene,Mueller,dmueller@aims.edu
+MUS,241,10315,"Private Instruction: (Specify)",Darlene,Mueller,dmueller@aims.edu
+NUA,101,10301,"Nurse Aide Health Care Skills",Heather,Brown,heather.brown@aims.edu
+NUA,101,10302,"Nurse Aide Health Care Skills",Heather,Brown,heather.brown@aims.edu
+NUA,101,10326,"Nurse Aide Health Care Skills",Shelly,Powell,shelly.powell@aims.edu
+NUA,170,10328,"Nurse Aide Clinical Experience",Jacqueline,McGuire,jmcguir2@aims.edu
+NUA,170,10329,"Nurse Aide Clinical Experience",Mary,Beshears,mbeshea1@aims.edu
+NUA,170,10333,"Nurse Aide Clinical Experience",Jacqueline,McGuire,jmcguir2@aims.edu
+PED,102,10021,"Weight Training I",Katie,Hansen,katie.hansen@aims.edu
+PED,102,10214,"Weight Training I",Amanda,Cope,amanda.cope@aims.edu
+PED,104,10173,"Cross Training",Katie,Hansen,katie.hansen@aims.edu
+PED,104,10196,"Cross Training",David,Arebalo,david.arebalo@aims.edu
+PED,104,10563,"Cross Training",David,Arebalo,david.arebalo@aims.edu
+PED,128,10043,"Indoor Stationary Group Cycle",Sabrina,Fisher,sfisher1@aims.edu
+PED,128,10181,"Indoor Stationary Group Cycle",Sabrina,Fisher,sfisher1@aims.edu
+PED,128,10213,"Indoor Stationary Group Cycle",Amanda,Cope,amanda.cope@aims.edu
+PED,140,10022,"Body Sculpting and Toning",D'Ann,Anderson,dintermi@aims.edu
+PED,143,10024,"Yoga I",Sandra,Myers,smyers1@aims.edu
+PED,143,10178,"Yoga I",Carole,Merriman,carole.merriman@aims.edu
+PED,143,10211,"Yoga I",Sabrina,Fisher,sfisher1@aims.edu
+PED,144,10025,"Yoga II",Sandra,Myers,smyers1@aims.edu
+PED,144,10179,"Yoga II",Carole,Merriman,carole.merriman@aims.edu
+PED,144,10212,"Yoga II",Sabrina,Fisher,sfisher1@aims.edu
+PED,163,10044,"Martial Arts I",James,Holtz,jholtz@aims.edu
+PHI,111,10263,"Intro to Philosophy [AH3]",Daniel,Malloy,daniel.malloy@aims.edu
+PHI,111,10265,"Intro to Philosophy [AH3]",Daniel,Alvarez,daniel.alvarez@aims.edu
+PHI,112,10266,"Ethics [AH3]",Anne,Machin,anne.machin@aims.edu
+PHI,113,10268,"Logic [AH3]",Daniel,Alvarez,daniel.alvarez@aims.edu
+PHI,114,10269,"Comparative Religions [AH3]",Daniel,Alvarez,daniel.alvarez@aims.edu
+PHY,105,10202,"Conceptual Physics w/Lab [SC1]",Fana,Mulu-Moore,fana.mulu-moore@aims.edu
+POS,105,10017,"Intro Political Science [SS1]",Mohamed-Mahad,Darar,mohamed.darar@aims.edu
+POS,111,10034,"American Government [SS1]",Keith,Coleman,keith.coleman@aims.edu
+PRO,280,10552,Internship,Lee,McMains,nmcmains@aims.edu
+PSY,101,10165,"General Psychology I [SS3]",Juanita,Hernandez,juanita.hernandez@aims.edu
+PSY,101,10166,"General Psychology I [SS3]",Rita,Clark,rita.clark@aims.edu
+PSY,101,10384,"General Psychology I [SS3]",Kimberli,Bontempo,kimberli.bontempo@aims.edu
+PSY,101,10386,"General Psychology I [SS3]",ShawnaLee,Washam,shawna.washam@aims.edu
+PSY,102,10167,"General Psychology II [SS3]",Allan,Obert,aobert@aims.edu
+PSY,102,10168,"General Psychology II [SS3]",Rita,Clark,rita.clark@aims.edu
+PSY,235,10169,"Human Growth/Development [SS3]",Juanita,Hernandez,juanita.hernandez@aims.edu
+PSY,235,10170,"Human Growth/Development [SS3]",Lynn,Dean,lynn.dean@aims.edu
+PSY,238,10388,"Child Development [SS3]",Mark,Luoma,mluoma@aims.edu
+PSY,249,10387,"Abnormal Psychology [SS3]",Selani,Flores,spachec3@aims.edu
+RTE,183,10187,"Radiographic Internship III",Marna,Juarez,mjuarez@aims.edu
+RTE,183,10192,"Radiographic Internship III",Monica,Hinze,mlauer@aims.edu
+RTE,183,10195,"Radiographic Internship III",Jeanette,McDonough,jmcdonou@aims.edu
+RTE,250,10197,Mammography,Monica,Hinze,mlauer@aims.edu
+RTE,291,10205,"Mammography Clinical",Sheila,Shirley,sheila.shirley@aims.edu
+RTV,242,10159,"Cable TV Broadcasting II",James,Crandall,jim.crandall@aims.edu
+RTV,280,10161,"Internship-TV/Video Prod II",James,Crandall,jim.crandall@aims.edu
+RTV,283,10367,"Internship-Radio/Audio Prod II",David,Farrell,dfarrel2@aims.edu
+RTV,285,10162,"Independent Study",James,Crandall,jim.crandall@aims.edu
+RTV,285,10163,"Independent Study",James,Crandall,jim.crandall@aims.edu
+RTV,285,10164,"Independent Study",James,Crandall,jim.crandall@aims.edu
+SOC,101,10036,"Intro to Sociology I [SS3]",Catherine,Beighey,cathy.beighey@aims.edu
+SOC,218,10037,"Sociology of Diversity [SS3]",Catherine,Beighey,cathy.beighey@aims.edu
+SPA,101,10399,"Conversational Spanish I",Jeffrey,Lorimer,jeffrey.lorimer@aims.edu
+WEL,100,10471,"Safety for Welders",Miles,Scheer,mscheer@aims.edu
+WEL,100,10472,"Safety for Welders",Miles,Scheer,mscheer@aims.edu
+WEL,100,10561,"Safety for Welders",Jeffery,Klein,jeff.klein@aims.edu
+WEL,101,10427,"Allied Cutting Processes",Jeffery,Klein,jeff.klein@aims.edu
+WEL,101,10440,"Allied Cutting Processes",Jeffery,Klein,jeff.klein@aims.edu
+WEL,101,10450,"Allied Cutting Processes",Miles,Scheer,mscheer@aims.edu
+WEL,101,10461,"Allied Cutting Processes",Miles,Scheer,mscheer@aims.edu
+WEL,101,10559,"Allied Cutting Processes",Jeffery,Klein,jeff.klein@aims.edu
+WEL,103,10428,"Basic Shielded Metal Arc I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,103,10441,"Basic Shielded Metal Arc I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,103,10451,"Basic Shielded Metal Arc I",Miles,Scheer,mscheer@aims.edu
+WEL,103,10462,"Basic Shielded Metal Arc I",Miles,Scheer,mscheer@aims.edu
+WEL,103,10560,"Basic Shielded Metal Arc I",Miles,Scheer,mscheer@aims.edu
+WEL,110,10432,"Advanced Shielded Metal Arc I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,110,10442,"Advanced Shielded Metal Arc I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,110,10452,"Advanced Shielded Metal Arc I",Miles,Scheer,mscheer@aims.edu
+WEL,110,10463,"Advanced Shielded Metal Arc I",Miles,Scheer,mscheer@aims.edu
+WEL,175,10556,"Special Topics",Miles,Scheer,mscheer@aims.edu
+WEL,176,10557,"Special Topics",Miles,Scheer,mscheer@aims.edu
+WEL,177,10558,"Special Topics",Miles,Scheer,mscheer@aims.edu
+WEL,201,10433,"Gas Metal Arc Welding I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,201,10443,"Gas Metal Arc Welding I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,201,10453,"Gas Metal Arc Welding I",Miles,Scheer,mscheer@aims.edu
+WEL,201,10464,"Gas Metal Arc Welding I",Miles,Scheer,mscheer@aims.edu
+WEL,202,10434,"Gas Metal Arc Welding II",Jeffery,Klein,jeff.klein@aims.edu
+WEL,202,10444,"Gas Metal Arc Welding II",Jeffery,Klein,jeff.klein@aims.edu
+WEL,202,10454,"Gas Metal Arc Welding II",Miles,Scheer,mscheer@aims.edu
+WEL,202,10465,"Gas Metal Arc Welding II",Miles,Scheer,mscheer@aims.edu
+WEL,203,10435,"Flux Cored Arc Welding I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,203,10445,"Flux Cored Arc Welding I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,203,10455,"Flux Cored Arc Welding I",Miles,Scheer,mscheer@aims.edu
+WEL,203,10466,"Flux Cored Arc Welding I",Miles,Scheer,mscheer@aims.edu
+WEL,204,10436,"Flux Cored Arc Welding II",Jeffery,Klein,jeff.klein@aims.edu
+WEL,204,10446,"Flux Cored Arc Welding II",Jeffery,Klein,jeff.klein@aims.edu
+WEL,204,10456,"Flux Cored Arc Welding II",Miles,Scheer,mscheer@aims.edu
+WEL,204,10467,"Flux Cored Arc Welding II",Miles,Scheer,mscheer@aims.edu
+WEL,224,10437,"Adv Gas Tungsten Arc Welding",Jeffery,Klein,jeff.klein@aims.edu
+WEL,224,10447,"Adv Gas Tungsten Arc Welding",Jeffery,Klein,jeff.klein@aims.edu
+WEL,224,10457,"Adv Gas Tungsten Arc Welding",Miles,Scheer,mscheer@aims.edu
+WEL,224,10468,"Adv Gas Tungsten Arc Welding",Miles,Scheer,mscheer@aims.edu
+WEL,230,10438,"Pipe Welding I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,230,10448,"Pipe Welding I",Jeffery,Klein,jeff.klein@aims.edu
+WEL,230,10458,"Pipe Welding I",Miles,Scheer,mscheer@aims.edu
+WEL,230,10469,"Pipe Welding I",Miles,Scheer,mscheer@aims.edu
+WEL,231,10439,"Pipe Welding II",Jeffery,Klein,jeff.klein@aims.edu
+WEL,231,10449,"Pipe Welding II",Jeffery,Klein,jeff.klein@aims.edu
+WEL,231,10459,"Pipe Welding II",Miles,Scheer,mscheer@aims.edu
+WEL,231,10470,"Pipe Welding II",Miles,Scheer,mscheer@aims.edu

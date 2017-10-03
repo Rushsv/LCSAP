@@ -1,0 +1,57 @@
+﻿@model LCSAP_LC.Models.TutorSession
+
+@{
+    ViewBag.Title = "Tutor Logout";
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> Tutor Log-Out</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="row">
+            <h4>Log Out?</h4>
+            <hr />
+
+            <div class="col-md-offset-4 col-md-10 center-block">
+                <p>
+                    Tutor Session: @Html.DisplayFor(model => model.TutorSession_Id, new { htmlAttributes = new { @class = "form-control" } })
+                    <br />
+                </p>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <div class="col-md-offset-4 col-md-10">
+                    @Html.HiddenFor(t => t.Tutor_Id)
+                    <div class="btn-group" role="group" aria-label="...">
+                        <input id="LogoutBtn" type="submit" name="BtnPressed" value="Cancel" class="btn btn-lg  btn-default btn-block">
+                        <input id="logoutBtn" type="submit" name="BtnPressed" value="Logout" class="btn btn-lg  btn-warning btn-block">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    }
+
+
+
+</body>
+</html>
+
+
+
+

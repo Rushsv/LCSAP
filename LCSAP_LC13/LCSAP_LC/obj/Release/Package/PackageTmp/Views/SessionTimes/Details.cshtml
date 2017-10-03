@@ -1,0 +1,66 @@
+﻿@model LCSAP_LC.Models.SessionTime
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>SessionTime</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.StudentSession.Student_Id)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.StudentSession.Student_Id)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TutorSession.Tutor_Id)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TutorSession.Tutor_Id)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.WaitTime_Start)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.WaitTime_Start)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Tutoring_Start)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Tutoring_Start)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Tutoring_End)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Tutoring_End)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.SessionTime_Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

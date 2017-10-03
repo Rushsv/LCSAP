@@ -1,0 +1,129 @@
+﻿@model IEnumerable<LCSAP_LC.ViewModels.StudentSessionsDetail>
+
+
+@using (Html.BeginForm("CostPerStudent", "SessionReports", FormMethod.Get))
+{
+    <p>
+        Term: @Html.DropDownList("termFilter", "Current")
+        Campus: @Html.DropDownList("campusFilter", "All")
+        Area: @Html.DropDownList("areaFilter", "All")
+        Find Student: @Html.TextBox("studentFilter", ViewBag.studentFilter as string)
+        <input class="btn btn-info" type="submit" value="Filter" />
+    </p>
+    
+}
+
+<table class="table table-hover table-striped">
+@foreach (var itemGroup in Model.GroupBy(g => g.FullName))
+{
+    <tr>
+        <td>
+            <h4>Student: @Html.Encode(itemGroup.Key)</h4>
+        </td>
+        <td>
+            
+        </td>
+
+    </tr>
+    <tr>
+        <th>
+            Campus
+        </th>
+        <th>
+            Tutor
+        </th>
+
+        <th>
+            Area
+        </th>
+        <th>
+            Cost x Hour
+        </th>
+        <th>
+            Checkin Time
+        </th>
+        <th>
+            Tutoring Start Time
+        </th>
+        <th>
+            Tutoring End Time
+        </th>
+        <th>
+            Total Time (H:M:S)
+        </th>
+        <th> Cost</th>
+    </tr>
+
+
+    
+    foreach (var item in itemGroup)
+    {
+    <tr>
+        <td>
+            @item.CampusName
+        </td>
+
+        <td>
+            @item.TutorName
+        </td>
+
+        <td>
+            @item.AreaName
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HrCost)
+        </td>
+        <td>
+            @item.WTime
+        </td>
+        <td>
+            @item.TTimeStart
+        </td>
+        <td>
+            @item.TTimeEnd
+        </td>
+        <td>
+            @TTSeconds(@item.TTimeStart, @item.TTimeEnd)
+        </td>
+        <td>
+            @TCost(@item.TTimeStart, @item.TTimeEnd, @item.HrCost)
+        </td>
+        
+    </tr>
+
+    }
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>                
+            <td> </td>
+            <td>
+                Sessions: @itemGroup.Count()
+            </td>
+            
+        </tr>
+}
+
+</table>
+<h4>Total Sessions: @Model.Count()</h4>
+
+@helper TCost(DateTime DStart, DateTime DEnd, Decimal HourCost)
+{
+var VSeconds = Math.Round(DEnd.Subtract(DStart).TotalSeconds, 0);
+Decimal costXSecond = (HourCost / 3600);
+costXSecond = Math.Round(costXSecond * Convert.ToDecimal(VSeconds),2);
+
+    <span>$@costXSecond</span>
+}
+
+@helper TTSeconds (DateTime DStart, DateTime DEnd)
+    {
+    System.TimeSpan diff1 = DEnd.Subtract(DStart);
+
+
+
+        <span>@diff1.ToString(@"hh\:mm\:ss")</span>
+}
+

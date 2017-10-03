@@ -1,0 +1,97 @@
+﻿@model LCSAP_LC.Models.Student
+
+@{
+    ViewBag.Title = "Details";
+    var lcservices = new LCSAP_LC.Services.LCSAPServices();
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Student: <i>@Model.Student_Id</i></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_MName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_MName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_DOB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_DOB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_Major)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_Major)
+        </dd>
+        <dd>
+            <p>
+                @Html.ActionLink("Add Class", "Enroll", new { id = Model.Student_Id })
+            </p>
+            <table class="table">
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Title</th>
+                </tr>
+                @foreach (var item in Model.CRNSections)
+                {
+                    if (item.Term_Id == lcservices.CurrentTerm)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Course.Course_Id)
+                            [@Html.DisplayFor(modelItem => item.CRN_Id)]
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Course.Course_Title)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Remove Class", "UnEnroll", new { student_id = Model.Student_Id, crn_id = item.CRN_Id })
+                        </td>
+
+                    </tr>
+                    }
+                }
+            </table>
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Student_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

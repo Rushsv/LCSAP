@@ -1,0 +1,59 @@
+﻿@model LCSAP_LC.Models.SessionTime
+
+
+@{
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Check In Student</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="row">
+            <h4>Session Time Check</h4>
+            <hr />
+
+            <div class="col-md-10 col-sm-10 center-block">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">@ViewBag.StudentFullName</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4>@ViewBag.CourseDescription</h4>
+                        <div class="form-group center-block">
+                            @Html.HiddenFor(c => c.Tutoring_Start)
+                            @Html.HiddenFor(c => c.WaitTime_Start)
+                            <div class="col-md-offset-4 col-md-10">
+                                <input type="submit" value="Check" class="btn btn-lg  btn-primary btn-block">
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="panel-footer">
+                        <p><small>
+                            Tutor Session: @Html.DisplayFor(model => model.TutorSession_Id, new { htmlAttributes = new { @class = "form-control" } })
+                            <br />
+                            Student Session: @Html.DisplayFor(model => model.StudentSession_Id, new { htmlAttributes = new { @class = "form-control" } })
+                            </small>
+                        </p>
+                    </div>
+                </div>   
+                
+            </div>
+            
+
+        </div>
+    }
+</body>
+</html>

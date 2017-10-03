@@ -1,0 +1,20 @@
+﻿@model IEnumerable<LCSAP_LC.Models.Area>
+
+@{
+    ViewBag.Title = "Select Area";
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+}
+
+<h2>Select Area for @ViewBag.Campus_Name Campus</h2>
+
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-md-6 margin-top-20">
+                <a href="@Url.Action("StudentLogin","StudentSessions", new {campus_id = ViewBag.Campus_Id, area_id=item.Area_Id })" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-check"></span>@Html.DisplayFor(modelItem => item.Area_Name)</a>
+            </div>
+        </div>
+
+    }
+</div>

@@ -1,0 +1,42 @@
+﻿@model LCSAP_LC.Models.Term
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Term</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Term_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Term_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Term_Start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Term_Start)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Term_End)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Term_End)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Term_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

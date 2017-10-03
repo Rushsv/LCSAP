@@ -1,0 +1,37 @@
+﻿@model LCSAP_LC.Models.Tutor
+@{
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+}
+
+@{
+    ViewBag.Title = "Tutor Login";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>TutorSession</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tutor_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tutor_Id, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tutor_Id, "", new { @class = "text-danger" })
+                <p id="badId" class="text-danger">@ViewBag.errorMessage</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Login" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

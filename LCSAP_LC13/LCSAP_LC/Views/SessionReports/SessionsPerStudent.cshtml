@@ -1,0 +1,70 @@
+﻿@model IEnumerable<LCSAP_LC.ViewModels.StudentSessionsSummary>
+
+
+@using (Html.BeginForm("SessionsPerStudent", "SessionReports", FormMethod.Get))
+{
+    <p>
+        Term: @Html.DropDownList("termFilter", "Current")
+        Campus: @Html.DropDownList("campusFilter", "All")
+        Find Student: @Html.TextBox("studentFilter", ViewBag.studentFilter as string)
+        <input class="btn btn-info" type="submit" value="Filter" />
+    </p>
+
+}
+
+<table class="table table-hover table-striped">
+    <tr>
+        <th>
+            Student
+        </th>
+        <th>
+            Campus
+        </th>
+
+        <th>
+            Total Sessions
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+            <tr>
+                <td>
+                    @item.FullName
+                </td>
+
+                <td>
+                    @item.CampusName
+                </td>
+
+                <td>
+                    @item.SessionsTotal
+                </td>
+
+            </tr>
+
+    }
+
+</table>
+<h4>Total Students: @Model.Count() Total of Sessions: @Model.Sum(s=>s.SessionsTotal)</h4>
+
+@helper TCost(DateTime DStart, DateTime DEnd, Decimal HourCost)
+{
+var VSeconds = Math.Round(DEnd.Subtract(DStart).TotalSeconds, 0);
+Decimal costXSecond = (HourCost / 3600);
+costXSecond = Math.Round(costXSecond * Convert.ToDecimal(VSeconds), 2);
+
+    <span>$@costXSecond</span>
+}
+
+@helper TTSeconds(DateTime DStart, DateTime DEnd)
+{
+System.TimeSpan diff1 = DEnd.Subtract(DStart);
+
+
+
+    <span>@diff1.ToString(@"hh\:mm\:ss")</span>
+}
+
+
+

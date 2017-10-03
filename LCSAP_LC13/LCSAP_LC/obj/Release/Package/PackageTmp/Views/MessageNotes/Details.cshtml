@@ -1,0 +1,34 @@
+﻿@model LCSAP_LC.Models.MessageNote
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MessageNote</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Message_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message_Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message_Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Message_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

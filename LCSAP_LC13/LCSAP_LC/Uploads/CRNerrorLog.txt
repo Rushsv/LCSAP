@@ -1,0 +1,12 @@
+SubjectCourse_Number Course_Title - Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+AIMS,1131,10509,"Draft:Intro, Body, Conclusions",,,
+AIMS,1144,10514,"Well-Being, Balance, & Success",,,
+AVT,217,10381,"SFAR 73 Flt Instr, Flt Hlcptr",Donald,Griffith,donald.griffith@aims.edu
+CIO,76,10473,"Spcl Tpcs: Listen, Speak, 1",Fathia,Barkadle,fbarkad1@aims.edu
+CIO,76,10474,"Spcl Tpcs: Listen, Speak, 1",Wayne,Buller,wayne.buller@aims.edu
+CIO,76,10475,"Spcl Tpcs: Listen, Speak, 1",Nereida,Perdigon Rodriguez,nereida.perdigon@aims.edu
+CIO,76,10476,"Spcl Tpcs: Listen, Speak, 1",Thomas,Lucero,tlucero6@aims.edu
+CIO,76,10477,"Spcl Tpcs: Listen, Speak, 1",Sean,Ryan,sryan3@aims.edu
+CIO,76,10564,"Spcl Tpcs: Listen, Speak, 1",Lucia,Gonzales,lucia.gonzales@aims.edu
+SubjectCourse_Number Course_Title - Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+SubjectCourse_Number CRN FALL2017 - Input string was not in a correct format.

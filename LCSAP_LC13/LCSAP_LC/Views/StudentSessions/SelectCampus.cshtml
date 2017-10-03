@@ -1,0 +1,29 @@
+﻿@model IEnumerable<LCSAP_LC.Models.Campus>
+
+@{
+    ViewBag.Title = "Select Campus";
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Select Campus</title>
+</head>
+<body>
+    <div class="container">
+        @foreach (var item in Model)
+        {
+        <div class="row">
+            <div class="col-md-6 margin-top-20">
+                <a href="@Url.Action("SelectArea","StudentSessions", new {campus_id = item.Campus_Id })" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-check"></span>@Html.DisplayFor(modelItem => item.Campus_Name)</a>
+            </div>
+        </div>
+        
+        }
+    </div>
+
+</body>
+</html>

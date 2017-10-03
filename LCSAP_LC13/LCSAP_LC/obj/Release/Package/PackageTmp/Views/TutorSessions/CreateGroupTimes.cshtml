@@ -1,0 +1,51 @@
+﻿@model LCSAP_LC.ViewModels.VMTutorSession
+
+@{
+    Layout = "~/Views/Shared/_LayoutFormat.cshtml";
+    ViewBag.Title = "Group Student Queue";
+}
+<script src="~/Content/StudentQueue.js"></script>    
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Group Queue - @ViewBag.AreaFilter</h3>
+            <h4>Tutor: @Model.VMTutorDisplayName Session: @Model.VMTutorSession_Id</h4>
+            <h2><label id="minutes">00</label>:<label id="seconds">00</label></h2>
+        </div>
+        <div class="panel-body">
+            @foreach (var itemSelected in Model.VMStudentSessions)
+            {
+                if (itemSelected.VMSelected)
+                {
+                    <div class="well">
+                        @itemSelected.VMStudentDisplayName @itemSelected.VMCourseDisplayName
+                    </div>
+                }
+
+            }
+
+        </div>
+        <div class="panel-footer" style="text-align:center">
+            @using (Html.BeginForm())
+             {
+                @Html.AntiForgeryToken()
+
+                <label class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="session_active" checked="checked">
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Keep Students in Queue?</span>
+                </label>      
+                <button type="submit" class="btn btn-lg  btn-primary btn-block">Complete Group Tutoring</button>
+             }
+        </div>
+    </div>
+
+    <script type="text/javascript">
+                            var minutesLabel = document.getElementById("minutes");
+                            var secondsLabel = document.getElementById("seconds");
+                            var totalSeconds = 0;
+                            setInterval(setTime, 1000);
+    </script>
+
+</div>
+
